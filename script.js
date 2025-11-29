@@ -1,1 +1,1 @@
-console.log("hello world");
+window.Webflow=window.Webflow||[],window.Webflow.push(function(){document.querySelectorAll('[data-faq-dropdown=""]').forEach(e=>{e.addEventListener("click",function(){let e=this.querySelector('[data-faq-dropdown="answer"]'),t=this.querySelector('[data-faq-dropdown="arrow"]');e&&(e.style.height&&"0px"!==e.style.height?(e.style.height="0px",t&&(t.style.transform="rotate(0deg)")):(e.style.height=e.scrollHeight+"px",t&&(t.style.transform="rotate(180deg)")))})})});
